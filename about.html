@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="design">
+                <a href="index.html"><img class="final_logo" src="blood (1).png"></a>
+                <h3>VITALFLOW</h3>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Project1.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="RECIPIENT.html">RECIPIENT</a></li>
+                    <li><a href="donor.html">DONATE</a></li>
+                    <li><a href="fundus.html">FUND US</a></li>
+                    <!-- <li><a href="blog.html">SEARCH</a></li> -->
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- <i class="fa fa-bars"></i> -->
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <pre>
+        <h2>"We Are India’s Largest Youth Run Initiative Working In The Field Of Blood Donation 
+            Trying To Make India Blood Sufficient."</h2></pre>
+    </section>
+
+<!-- about us content  -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Our Mission</h1>
+            <p>To contribute towards the problem of shortage of blood in India by raising awareness and improving donor experience and thereby, become a 360-degree solution provider.</p>
+           <h1>Vision</h1>
+            <p>Reach Blood Sufficient India through Voluntary Blood Donations.</p>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis maxime reiciendis, vitae unde amet quam repellat modi veritatis saepe. Magni praesentium voluptas fugiat alias nobis suscipit perferendis soluta voluptates ab!</p> -->
+            <!-- <a href="know.html" class="hero-btn red-btn">KNOW MORE</a> -->
+        </div>
+        <div class="about-col">
+            <!-- <video src="https://www.youtube.com/watch?v=XHAfF79u4ZI"></video> -->
+            <!-- <img src="about.jpg"> -->
+            <!-- <video controls>
+                <source src="https://www.youtube.com/watch?v=XHAfF79u4ZI" >
+                
+                Your browser does not support the video tag.
+              </video> -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/XHAfF79u4ZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+    
+        <!-- footer  -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Feel free to contact us
+            <br>on the following.</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+        </div>
+        <p>Copyright &copy - All rights reseved</p>
+    </section>
+
+    <!-- javascript for toggle menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
